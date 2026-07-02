@@ -21,7 +21,7 @@ function Important(props) {
   } = useContext(TaskContext);
 
   return (
-    <div className={`${!props.open && "hidden"} h-screen flex flex-col bg-[#FAF9F8] `}
+    <div className={`${!props.open && "hidden"} overflow-auto flex flex-col bg-[#FAF9F8] `}
     >
       <div className='flex justify-between items-center my-4 mx-6 text-[20px] text-[#2564CF]'>
         <div className='flex items-center'>
