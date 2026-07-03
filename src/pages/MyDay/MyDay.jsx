@@ -25,7 +25,7 @@ function MyDay(props) {
 
 
   return (
-    <div className={`${!props.open && "hidden"} overflow-auto bg-[#FAF9F8] flex flex-col`}>
+    <div className={`${!props.open && "hidden"} overflow-auto h-screen bg-[#FAF9F8] flex flex-col`}>
       <div className='my-4 mx-6 py-2.5'>
         <div className='flex justify-between items-center'>
           <div className='flex flex-col'>

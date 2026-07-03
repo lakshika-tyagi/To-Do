@@ -7,6 +7,7 @@ import Planned from '../../pages/Planned/Planned';
 import Tasks from '../../pages/Tasks/Tasks';
 import Panel from '../../pages/Panel/Panel'
 import { CheckCheck } from 'lucide-react';
+import Header from '../Header/Header';
 
 function Sidebar() {
 
@@ -15,10 +16,11 @@ function Sidebar() {
   return (
 
     <div className='flex overflow-hidden'>
+      
 
-      <div className='my-0 sticky'>
+      <div className='my-0'>
 
-        <div className='flex flex-col justify-between relative overflow-auto box-border p-0 w-73 top-0 left-0 shadow-md '>
+        <div className='flex flex-col justify-between relative overflow-auto h-screen box-border p-0 w-73 top-0 left-0 shadow-md  '>
 
           <div>
 

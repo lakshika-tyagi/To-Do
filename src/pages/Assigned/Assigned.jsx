@@ -2,7 +2,7 @@ import React from 'react'
 
 function Assigned(props) {
   return (
-    <div className={`${!props.open && "hidden"} overflow-auto flex flex-col bg-[#FAF9F8]`} >
+    <div className={`${!props.open && "hidden"} h-screen overflow-auto flex flex-col bg-[#FAF9F8]`} >
       
       <div className='flex justify-between items-center my-4 mx-6 text-[20px] text-[#457E21]'>
         <div className='flex items-center'>
